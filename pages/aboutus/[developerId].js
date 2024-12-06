@@ -4,7 +4,6 @@ import { Fragment, useState } from "react";
 
 function Developer(){
   const router=useRouter()
-  const [dev,setDev]=useState()
   const developerId=router.query.developerId
   const details = [
 
